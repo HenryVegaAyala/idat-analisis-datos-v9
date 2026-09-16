@@ -11,4 +11,4 @@ csv_path = DATABASE_DIR / "data_ventas_enero_2026.csv"
 # Leer el archivo CSV
 df = pd.read_csv(csv_path)
 
-print(df)
+print(df.head(2))  # Muestra las primeras filas del DataFrame
